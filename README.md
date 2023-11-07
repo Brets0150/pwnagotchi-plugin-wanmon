@@ -10,9 +10,9 @@ I built this plugin to speed up my troubleshooting when I dock my Pwnagotchi. Ev
 ### What does it do?
 WanMon tests the network connection by sending a single ping packet(ICMP) to the IP configured, then does the same with the domain name configured.
 
- - If the IP ping AND domain name ping get responses, the status on display is "**C**" as in connected.
- - If the IP ping gets a response, but the domain name ping does NOT, the status on display is "**IP**" as in the IP is working, but not DNS.
- - If neither IP AND domain name pings get a response, the status is "**X**".
+ - If the IP ping AND domain name ping get responses, the status on display is "**WAN:C**" as in connected.
+ - If the IP ping gets a response, but the domain name ping does NOT, the status on display is "**WAN:IP**" as in the IP is working, but not DNS.
+ - If neither IP AND domain name pings get a response, the status is "**WAN:X**".
 
 ![WanMon Display Output](wanmon_display_image.jpg)
 
