@@ -8,7 +8,7 @@ A simple Pwnagotchi plugin to detect WAN(Internet or Intranet) connection and re
 I built this plugin to speed up my troubleshooting when I dock my Pwnagotchi. Every time I connected the Pwnagotchi to my laptop or a Pi0 dock, I found myself having to test if the IP config was the issue or if DNS was not working. So, this was my way of quickly knowing what to fix.
 
 ### What does it do?
-WanMon tests the network connection by sending a single ping packet(ICMP) to the IP configured, then does the same with the domain name configured. 
+WanMon tests the network connection by sending a single ping packet(ICMP) to the IP configured, then does the same with the domain name configured.
 
  - If the IP ping AND domain name ping get responses, the status on display is "**C**" as in connected.
  - If the IP ping gets a response, but the domain name ping does NOT, the status on display is "**IP**" as in the IP is working, but not DNS.
